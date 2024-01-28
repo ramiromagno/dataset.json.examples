@@ -1,0 +1,17 @@
+Package: dataset.json.examples
+Title: Dataset-JSON Example Files
+Version: 0.0.1
+Authors@R: c(
+    person("Ramiro", "Magno", , "rmagno@pattern.institute", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5226-3441")),
+    person("Pattern Institute", role = c("cph", "fnd"))
+  )
+Description: An R data package providing a set of Dataset-JSON files comprising
+    SDTM and ADaM datasets. Examples are originally from:
+    <https://github.com/cdisc-org/DataExchange-DatasetJson>.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    tibble

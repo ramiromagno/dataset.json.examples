@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# dataset.json.examples <img src="man/figures/logo.svg" align="right" height="139" alt="" />
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/ramiromagno/dataset.json.examples/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ramiromagno/dataset.json.examples/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+An R data package providing a set of
+[Dataset-JSON](https://www.cdisc.org/dataset-json) files comprising SDTM and
+ADaM datasets. Examples are originally from:
+[DataExchange-DatasetJson](https://github.com/cdisc-org/DataExchange-DatasetJson).
+
+## Installation
+
+``` r
+install.packages("dataset.json.examples", repos = "https://patterninstitute.r-universe.dev")
+```
+
+## Dataset-JSON files
+
+`example_path()` returns the paths to the example Dataset-JSON files:
+
+```{r}
+library(dataset.json.examples)
+example_path()
+```
+
+Pick a specific path by dataset name:
+
+```r
+example_path("adsl")
+```
+
+Examples files come in compressed xz format, use `unxz()` to easily create 
+uncompressed copies:
+
+```r
+unxz(from = example_path("ae"), to = "ae.json")
+```
+
