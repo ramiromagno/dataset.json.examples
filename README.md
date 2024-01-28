@@ -8,7 +8,7 @@
 [![R-CMD-check](https://github.com/ramiromagno/dataset.json.examples/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ramiromagno/dataset.json.examples/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-An R data package providing a set of
+`{dataset.json.examples}` is an R data package providing a set of
 [Dataset-JSON](https://www.cdisc.org/dataset-json) files comprising SDTM
 and ADaM datasets. Examples are originally from:
 [DataExchange-DatasetJson](https://github.com/cdisc-org/DataExchange-DatasetJson).

@@ -8,6 +8,14 @@
 \description{
 An R data package providing a set of Dataset-JSON files comprising SDTM and ADaM datasets. Examples are originally from: \url{https://github.com/cdisc-org/DataExchange-DatasetJson}.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://rmagno.eu/dataset.json.examples/}
+  \item Report bugs at \url{https://github.com/ramiromagno/dataset.json.examples/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Ramiro Magno \email{rmagno@pattern.institute} (\href{https://orcid.org/0000-0001-5226-3441}{ORCID})
 
