@@ -11,7 +11,8 @@
 `{dataset.json.examples}` is an R data package providing a set of
 [Dataset-JSON](https://www.cdisc.org/dataset-json) files comprising SDTM
 and ADaM datasets. Examples are originally from the
-[DataExchange-DatasetJson/examples](https://github.com/cdisc-org/DataExchange-DatasetJson/tree/master/examples)repository.
+[DataExchange-DatasetJson/examples](https://github.com/cdisc-org/DataExchange-DatasetJson/tree/master/examples)
+repository.
 
 ## Installation
 
